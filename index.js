@@ -19,7 +19,7 @@ refreshRoles();
 
 //everything that happens on startup of this bot
 client.on('ready', () => {
-    console.log(`Sprawny i gotowy do akcji - ${client.user.tag}!`);
+    //console.log(`Sprawny i gotowy do akcji - ${client.user.tag}!`);
     applyChanges();
 
 });
@@ -30,7 +30,7 @@ client.on('message', msg => {
         msg.react("🤡");
     }
     //msg.react("🤡");
-    console.log(msg.author.id)
+    //console.log(msg.author.id)
 
     if (!msg.content.startsWith(prefix) || msg.author.bot) return;
 
