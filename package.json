@@ -1,16 +1,16 @@
 {
-  "name": "e11-bot",
+  "name": "clown-bot",
   "version": "1.0.0",
-  "description": "Discord Bot made for e11",
+  "description": ":clown:",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --trace-warnings index.js",
     "run": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeFlesz/e11-bot.git"
+    "url": "git+https://github.com/DeFlesz/clown-bot.git"
   },
   "keywords": [
     "discord",
@@ -20,9 +20,9 @@
   "author": "Antoni Nawrocki",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/DeFlesz/e11-bot/issues"
+    "url": "https://github.com/DeFlesz/clown-bot/issues"
   },
-  "homepage": "https://github.com/DeFlesz/e11-bot#readme",
+  "homepage": "https://github.com/DeFlesz/clown-bot#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
     "nodemon": "^2.0.7",
