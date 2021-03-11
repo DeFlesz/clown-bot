@@ -4,6 +4,7 @@
   "description": "Discord Bot made for e11",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "run": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
