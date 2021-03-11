@@ -5,6 +5,8 @@ module.exports = {
 	execute(msg, args, serverClowns) {
         if (!args.length) {
             return msg.channel.send(`Nie podałeś argumentów!`);
+        } else if (!msg.member.hasPermission('MANAGE_ROLES')){
+            return msg.channel.send(`Nie masz uprawnień do modyfikowania ról!`)
         }
 
         const clown_name = msg.mentions.users.first();
